@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+}
+
+.page,
+.header,
+.footer {
+  max-width: rem(1920);
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+  padding-top: var(--app-header-height);
+}
+

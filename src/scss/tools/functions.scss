@@ -1,0 +1,11 @@
+@use "sass:math";
+@import "../setting/variables";
+
+
+@function rem($value) {
+  @return math.div($value, $base) + rem;
+}
+
+@function em($value, $currentValue) {
+  @return math.div($value, $currentValue) + em;
+}

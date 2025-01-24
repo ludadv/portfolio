@@ -1,0 +1,13 @@
+.container {
+  padding: 0 rem(15);
+  max-width: calc(#{rem(1220)} + #{rem(30)});
+  margin: 0 auto;
+
+  & & {
+    padding: 0;
+  }
+
+  &--no-gap {
+    padding: 0;
+  }
+}

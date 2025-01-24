@@ -1,0 +1,15 @@
+//html
+html {
+  -webkit-font-smoothing: antialiased;
+  height: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+:root {
+  --app-header-height: #{rem(68)};
+
+  //@include microbe-media($breakpoint-df) {
+  //  --app-header-height: #{rem(120)};
+  //}
+}
